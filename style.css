@@ -1,0 +1,81 @@
+body {
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Jua', sans-serif;
+}
+
+.search-weather-total {
+  margin-top: 50px;
+  text-align: center;
+}
+.search-weather-total .city-text-field {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+  font-family: 'Jua', sans-serif;
+}
+
+.search-weather-total .search-btn {
+  display: block;
+  margin: 20px auto 0;
+  background-color: #0d6efd;
+  color: #fff;
+  font-size: 15px;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Jua', sans-serif;
+}
+
+.weather-result-total {
+  font-family: 'Jua', sans-serif;
+  visibility: hidden;
+  border: 2px solid #333;
+  width: 40%;
+  margin: 30px auto 0;
+}
+
+.weather-result-total .weather-title {
+  text-align: center;
+  margin: 30px auto 0;
+}
+.weather-result-total .weather-title .city-name {
+  font-size: 40px;
+}
+
+.weather-result-total .weather-title .weather-description {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.weather-result-total .weather-temp-total {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.weather-result-total .weather-temp-total .temp-max {
+  margin: 10px auto;
+}
+.weather-result-total .weather-temp-total .temp-min {
+  margin-bottom: 20px;
+}
+
+.error-message {
+  margin-top: 30px;
+  text-align: center;
+  color: red;
+  visibility: hidden;
+  font-family: 'Jua', sans-serif;
+}

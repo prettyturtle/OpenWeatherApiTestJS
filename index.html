@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>api</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+  <script type="module" defer src="./main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  
+</head>
+
+<body>
+
+  <h1>
+    도시 날씨 검색
+  </h1>
+
+  <div class="search-weather-total">
+    <input type="search" class="city-text-field" placeholder="도시를 입력하세요." />
+    <button class="search-btn">검색</button>
+  </div>
+
+  <div class="error-message">
+    에러입니다
+  </div>
+  <div class="weather-result-total">
+    <div class="weather-title">
+      <div class="city-name">
+        서울
+      </div>
+      <div class="weather-description">
+        맑음
+      </div>
+    </div>
+    <div class="weather-temp-total">
+      <div class="temp-mean">
+        현재: 32°C
+      </div>
+      <div class="temp-max">
+        최대: 20°C
+      </div>
+      <div class="temp-min">
+        최저: 40°C
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
