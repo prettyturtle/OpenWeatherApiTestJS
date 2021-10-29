@@ -43,7 +43,6 @@ searchButton.addEventListener("click", function () {
       weatherResultTotal.style.visibility = "visible"
     })
     .catch(function (error) {
-      console.log(error)
       weatherResultTotal.style.visibility = "hidden"
       errorMessage.style.visibility = "visible"
     });
