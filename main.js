@@ -37,7 +37,7 @@ searchButton.addEventListener("click", function () {
       cityNameLabel.innerHTML = cityName
       weatherDescriptionLabel.innerHTML = weatherDescription
       meanTempLabel.innerHTML = `현재: ${meanTemperature.toFixed(0)}°C`
-      maxTempLabel.innerHTML = `최대: ${maxTemperature.toFixed(0)}°C`
+      maxTempLabel.innerHTML = `최고: ${maxTemperature.toFixed(0)}°C`
       minTempLabel.innerHTML = `최저: ${minTemperature.toFixed(0)}°C`
 
       weatherResultTotal.style.visibility = "visible"
